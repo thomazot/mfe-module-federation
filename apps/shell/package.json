@@ -1,0 +1,7 @@
+{
+  "name": "shell",
+  "private": true,
+  "scripts": { "dev": "modern dev", "build": "modern build", "start": "modern serve" },
+  "dependencies": { "@ecommerce/ui": "workspace:*", "@modern-js/runtime": "^2", "react": "^18", "react-dom": "^18" },
+  "devDependencies": { "@modern-js/app-tools": "^2", "@module-federation/modern-js": "^0", "@tailwindcss/postcss": "^4", "typescript": "^5", "@types/react": "^18", "@types/react-dom": "^18" }
+}
